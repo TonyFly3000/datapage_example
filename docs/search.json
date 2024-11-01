@@ -33,5 +33,12 @@
     "title": "Palmer Penguins",
     "section": "",
     "text": "You can access the penguinsdata data programmatically using the Redivis API for R or Python.\n\nRPython\n\n\n\nInstall the redivis-r package:\n\ndevtools::install_github(\"redivis/redivis-r\")\n\nGenerate and set an API token.\nAccess the data:\n\nlibrary(redivis)\n\nuser &lt;- redivis::user(\"verykoala\")\ndataset &lt;- user$dataset(\"penguinsdata\")\ntable &lt;- dataset$table(\"penguins\")\n\n# Load table as tidyverse tibble\ndf &lt;- table$to_tibble()\nView documentation\n\n\n\nInstall the redivis-python client library:\n\npip install --upgrade redivis\n\nGenerate and set an API token.\nAccess the data:\n\nimport redivis\n\nuser = redivis.user(\"verykoala\")\ndataset = user.dataset(\"penguinsdata\")\ntable = dataset.table(\"penguins\")\n\n# Load table as a dataframe\ndf = table.to_pandas_dataframe()\nView documentation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "New Palmer Penguins example",
+    "section": "",
+    "text": "Artwork by @allison_horst"
   }
 ]
