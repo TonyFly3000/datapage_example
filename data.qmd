@@ -1,7 +1,4 @@
 
-sdfSDFASDFSFD
-
-
 {{< redivis-table >}}
 
 <!-- {{< redivis-table verykoala.penguinsdata.penguins >}} -->
